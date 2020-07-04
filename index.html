@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
     <link rel="stylesheet" href="css/styles.css">
+    <title>Portfolio</title>
             
 </head>
 <body>
@@ -20,18 +21,17 @@
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a class="navbar-brand mr-auto" href="#"><img src="img/logo.png" height="30" width="41"></a>
             <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span> Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#about"><span class="fa fa-info fa-lg"></span> About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="#home"><span class="fa fa-home fa-lg"></span> Home</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="#about"><span class="fa fa-info fa-lg"></span> About</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="#gallery"><span class="fa fa-picture-o fa-lg"></span> Gallery</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="#contact"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
                 </ul>           
             </div>
             </div>
         </nav>
-        <header class="jumbotron">
+        <header class="jumbotron" id="home">
             <div class="container">
                 <div class="row row-header align-items-center">
                     <div class="col-12 col-sm-6">
@@ -48,13 +48,71 @@
                         <div class="media-body">
                             <h2 class="mt-0 mb-1">ABOUT ME</h2>
                             <h3> Hi, I am Nehal.</h3>
-                            <p class="d-none d-sm-block">I am currently pursuing Engineering in Electronics and Computers. Recently, I started learning HTML and CSS so I decided to make this website.I have also used bootstrap to make this. My hobbies are drawing, playing mobile games and photography. I also want to learn Spanish because I am a big fan of spanish songs.</p>
+                            <p>I am currently pursuing Engineering in Electronics and Computers. Recently, I started learning HTML and CSS so I decided to make this website.I have also used bootstrap to make this. My hobbies are drawing, playing mobile games and photography. I also want to learn Spanish because I am a big fan of spanish songs.</p>
                         </div>
                     </div>
                         <img class="d-flex img-thumbnail self-align-center" src="back2.jpg" alt="profilepic"> 
             </div>
         </div>
+        <div class="row row-content align-items-center" id="gallery">
+            <div class="col-12 col-sm-3">
+                <img class="d-flex img-thumbnail image self-align-center" src="PHOTO-2019-03-31-15-05-45-01.jpg">
+            </div>
+            <div class="col-12 col-sm-3">
+                <img class="d-flex img-thumbnail image self-align-center" src="PHOTO-2019-03-31-15-05-46.jpg">
+            </div>
+            <div class="col-12 col-sm-3">
+                <img class="d-flex img-thumbnail image self-align-center" src="PHOTO-2019-03-31-15-05-50.jpg">
+            </div>
+            <div class="col-12 col-sm-3">
+                <img class="d-flex img-thumbnail image self-align-center" src="PHOTO-2019-03-31-15-05-54%20(1).jpg">
+            </div>
         </div>
+        <div class="row row-content align-items-center">
+            <div class="col-12 col-sm-3">
+                <img class="d-flex img-thumbnail image self-align-center" src="PHOTO-2019-03-31-15-09-36.jpg">
+            </div>
+            <div class="col-12 col-sm-3">
+                <img class="d-flex img-thumbnail image self-align-center" src="PHOTO-2019-03-31-15-09-37.jpg">
+            </div>
+            <div class="col-12 col-sm-3">
+                <img class="d-flex img-thumbnail image self-align-center" src="PHOTO-2019-03-31-15-09-44.jpg">
+            </div>
+            <div class="col-12 col-sm-3">
+                <img class="d-flex img-thumbnail image self-align-center" src="IMG_0140-01.JPG">
+            </div>
+        </div>
+        </div>
+    <footer class="footer colour" id="contact">
+        <div class="container">
+            <div class="row">             
+                <div class="col-4 offset-1 col-sm-2">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-7 col-sm-5">
+                    <h5>Address</h5>
+                    <address>
+		              Jaipur<br>
+		              Rajasthan<br>
+		              INDIA<br>
+		           </address>
+                </div>
+                <div class="col-12 col-sm-4 align-self-center">
+                    <div class="text-center">
+                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/nehal-arora-927204171"><i class="fa fa-linkedin"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/nehal5913"><i class="fa fa-twitter"></i></a>
+                        <a class="btn btn-social-icon" href="mailto:nehal5913@gmail.com"><i class="fa fa-envelope-o"></i></a>
+                    </div>
+                </div>
+           </div>
+        </div> 
+    </footer>
        
         
         <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>

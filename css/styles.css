@@ -25,3 +25,25 @@ body{
     border-bottom: 1px ridge;
     min-height:400px;
 }
+.image
+{
+    height:200px;
+    width:800px;
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+}
+.colour
+{
+    background-color:rebeccapurple;
+    color:floralwhite;
+}
+address{
+    font-size:100%;
+    margin:0px;
+    color:floralwhite;
+}
+.a::hover
+{
+    color:antiquewhite;
+}
+
